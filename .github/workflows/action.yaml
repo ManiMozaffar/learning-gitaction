@@ -1,0 +1,8 @@
+name: Must run on custom runner
+
+on: push
+jobs:
+  inti:
+    runs-on: self-hosted
+    steps:
+      echo 'Hello acloud guru'
