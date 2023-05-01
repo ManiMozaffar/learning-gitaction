@@ -5,5 +5,5 @@ jobs:
   inti:
     runs-on: self-hosted
     steps:
-      echo 'Hello acloud guru'
-      echo 'File is developed by Mani'
+      - run: echo 'Hello acloud guru'
+      - run: echo 'File is developed by Mani'
